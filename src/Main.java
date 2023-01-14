@@ -4,10 +4,11 @@ public class Main {
 //        int varAble = 0;
 //        pr1.getNameIndex(pr1.getName(),varAble);
 
-        Cheetah ch = new Cheetah("Nemo",2,4.3,95);
-        Dolphin dp = new Dolphin("XOXO",2,2.2,25);
-        ch.comporator();
-        ch.IQCounter();
+        Dolphin dolphin = new Dolphin("XOXO",2,5.2,25);
+        Cheetah сheetah = new Cheetah("Nemo",2,4.3,95);
+        сheetah.setDolphin(dolphin);
+        сheetah.comparator();
+        сheetah.IQCounter();
 
 
     }

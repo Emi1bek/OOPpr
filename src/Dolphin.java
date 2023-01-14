@@ -15,6 +15,14 @@ public class Dolphin {
         this.iq = iq;
     }
 
+    public void setSpeed(double speed) {
+        this.speed = speed;
+    }
+
+    public void setIq(double iq) {
+        this.iq = iq;
+    }
+
     public String getName() {
         return name;
     }
